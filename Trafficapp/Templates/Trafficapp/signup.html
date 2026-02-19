@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% block navbar %}{% endblock %}
+{% block footer %}{% endblock %}
+
+{% block content %}
+
+<div class="container mt-5">
+  <div class="row justify-content-center ">
+    <div class="col-md-6">
+
+    <div class="card shadow-lg border-0 rounded-4" style="background: linear-gradient(135deg, #fce4ec, #e1bee7, #e0f7fa);">
+        <div class="card-body p-4">
+
+          <h2 class="mb-4 text-center fw-bold">🚦 TrafficIQ</h2>
+
+
+          <!-- Form -->
+          <form method="POST">
+            {% csrf_token %}
+
+            {% for field in form %}
+              <div class="mb-3">
+                <label class="form-label fw-semibold d-block">{{ field.label }}</label>
+                <div class="d-grid">
+                  {{ field }}
+                </div>
+                {% if field.errors %}
+                  <div class="text-danger small mt-1">{{ field.errors }}</div>
+                {% endif %}
+              </div>
+            {% endfor %}
+
+            <button type="submit" class="btn btn-success w-100 rounded-pill py-2 fw-semibold">
+              Sign Up
+            </button>
+          </form>
+
+          <p class="mt-3 text-center">
+            Already have an account? 
+            <a href="{% url 'login' %}" class="fw-bold text-decoration-none text-primary">Login</a>
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Custom CSS -->
+<style>
+  /* Make all input fields equal height & styled */
+  input, select, textarea {
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  input:focus, select:focus, textarea:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 6px rgba(40,167,69,0.3);
+    outline: none;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+</style>
+
+{% endblock %}

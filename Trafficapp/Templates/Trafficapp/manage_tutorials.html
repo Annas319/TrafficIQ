@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+  <h2>📚 Manage Tutorials</h2>
+  <a href="{% url 'add_tutorial' %}" class="btn btn-success mb-3">➕ Add Tutorial</a>
+  
+  <ul class="list-group">
+    {% for t in tutorials %}
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div>
+          <strong>{{ t.title }}</strong><br>
+          <small class="text-muted">By {{ t.added_by.username }} on {{ t.created_at|date:"M d, Y" }}</small>
+        </div>
+        <div>
+          {% if t.file %}
+            <a href="{{ t.file.url }}" target="_blank" class="btn btn-sm btn-primary">View</a>
+          {% endif %}
+          <a href="{% url 'delete_tutorial' t.id %}" class="btn btn-sm btn-danger">Delete</a>
+        </div>
+      </li>
+    {% empty %}
+      <p class="text-muted">No tutorials added yet.</p>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+  <h2>📊 Report for {{ user.username }}</h2>
+  <p>Email: {{ user.email }}</p>
+
+  {% if attempts %}
+    <table class="table table-bordered table-striped shadow-sm">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>Test</th>
+          <th>Score</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for attempt in attempts %}
+        <tr>
+          <td>{{ forloop.counter }}</td>
+          <td>{{ attempt.test.title }}</td>
+          <td>{{ attempt.score }}/{{ attempt.total }}</td>
+          <td>{{ attempt.attempted_at|date:"d M Y H:i" }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <div class="alert alert-info">This user has not attempted any quizzes yet.</div>
+  {% endif %}
+</div>
+{% endblock %}

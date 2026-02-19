@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<div class="container mt-5">
+  <h2>➕ {% trans "Add Tutorial" %}</h2>
+  <form method="POST" enctype="multipart/form-data" class="p-3 border rounded shadow-sm">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-success w-100">{% trans "Add Tutorial" %}</button>
+  </form>
+</div>
+{% endblock %}
+
+{% comment %} {% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+  <h2>➕ Add Tutorial</h2>
+  <form method="POST" enctype="multipart/form-data" class="p-3 border rounded shadow-sm">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-success w-100">Add Tutorial</button>
+  </form>
+</div>
+{% endblock %} {% endcomment %}

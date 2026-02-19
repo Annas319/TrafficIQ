@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+  <h3 class="text-center mb-4">🚦 {{ test.title }}</h3>
+
+  {% if not result_data %}
+  <!-- Quiz Form -->
+  <form method="POST">
+    {% csrf_token %}
+    {% for q in questions %}
+  <div class="card mb-3 shadow-sm">
+    <div class="card-body">
+      <p><strong>Q{{ forloop.counter }}:</strong> {{ q.question }}</p>
+
+      {% if q.image %}
+        <div class="text-center mb-3">
+          <img src="{{ q.image.url }}" alt="Question Image" class="img-fluid rounded" style="max-height: 180px;">
+        </div>
+      {% endif %}
+
+      <div>
+        <label><input type="radio" name="{{ q.id }}" value="A" required> {{ q.option_a }}</label><br>
+        <label><input type="radio" name="{{ q.id }}" value="B"> {{ q.option_b }}</label><br>
+        <label><input type="radio" name="{{ q.id }}" value="C"> {{ q.option_c }}</label><br>
+        <label><input type="radio" name="{{ q.id }}" value="D"> {{ q.option_d }}</label>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+    <div class="text-center mt-4">
+      <button type="submit" class="btn btn-success px-5 py-2">Submit Test</button>
+    </div>
+  </form>
+
+  {% else %}
+  <!-- Result Display -->
+  <div class="text-center mt-5">
+    <h4>✅ Test Completed!</h4>
+    <p class="lead mb-2">Score: <strong>{{ result_data.score }}/{{ result_data.total }}</strong></p>
+    <p>Percentage: <strong>{{ result_data.percentage }}%</strong></p>
+
+    {% if result_data.status == "Pass" %}
+      <h4 class="text-success">🎉 Congratulations! You Passed.</h4>
+    {% else %}
+      <h4 class="text-danger">❌ Better Luck Next Time!</h4>
+    {% endif %}
+
+    <a href="{% url 'take_quiz' test.id %}" class="btn btn-primary">Take Quiz</a>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

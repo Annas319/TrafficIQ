@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+  <h2>📖 Questions for: {{ test.title }}</h2>
+
+  <a href="{% url 'add_quiz_question' test.id %}" class="btn btn-success mb-3">➕ Add New Question</a>
+  <a href="{% url 'quiz_tests' %}" class="btn btn-secondary mb-3">⬅ Back to Tests</a>
+
+  {% if questions %}
+    <table class="table table-bordered table-striped shadow-sm">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>Question</th>
+          <th>Correct Answer</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for q in questions %}
+        <tr>
+          <td>{{ forloop.counter }}</td>
+          <td>{{ q.question|truncatewords:15 }}</td>
+          <td>
+            {% if q.correct_answer == "A" %} {{ q.option_a }}
+            {% elif q.correct_answer == "B" %} {{ q.option_b }}
+            {% elif q.correct_answer == "C" %} {{ q.option_c }}
+            {% elif q.correct_answer == "D" %} {{ q.option_d }}
+            {% endif %}
+          </td>
+          <td>
+            <a href="{% url 'edit_quiz_question' test.id q.id %}" class="btn btn-warning btn-sm">✏️ Edit</a>
+            <a href="{% url 'delete_quiz_question' test.id q.id %}" class="btn btn-danger btn-sm"
+               onclick="return confirm('Are you sure you want to delete this question?');">❌ Delete</a>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <div class="alert alert-info">No questions found. Add one above ⬆️</div>
+  {% endif %}
+</div>
+{% endblock %}

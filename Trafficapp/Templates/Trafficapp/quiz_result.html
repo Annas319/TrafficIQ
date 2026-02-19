@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<div class="container text-center mt-5">
+  <h2>🧾 {% trans "Test Result" %}</h2>
+  <p class="lead">
+    {% trans "Score" %}: <strong>{{ attempt.score }}/{{ attempt.total }}</strong>
+  </p>
+  <p>
+    {% trans "Percentage" %}: <strong>{{ percentage }}%</strong>
+  </p>
+
+  {% if status == "Pass" %}
+    <h4 class="text-success">🎉 {% trans "Congratulations! You Passed." %}</h4>
+  {% else %}
+    <h4 class="text-danger">❌ {% trans "Better Luck Next Time!" %}</h4>
+  {% endif %}
+
+  <a href="{% url 'landing' %}" class="btn btn-primary mt-3">
+    {% trans "Back to Home" %}
+  </a>
+</div>
+{% endblock %}
+
+
+{% comment %} {% extends "base.html" %}
+{% block content %}
+<div class="container text-center mt-5">
+  <h2>🧾 Test Result</h2>
+  <p class="lead">Score: <strong>{{ attempt.score }}/{{ attempt.total }}</strong></p>
+  <p>Percentage: <strong>{{ percentage }}%</strong></p>
+
+  {% if status == "Pass" %}
+    <h4 class="text-success">🎉 Congratulations! You Passed.</h4>
+  {% else %}
+    <h4 class="text-danger">❌ Better Luck Next Time!</h4>
+  {% endif %}
+
+  <a href="{% url 'landing' %}" class="btn btn-primary mt-3">Back to Home</a>
+</div>
+{% endblock %} {% endcomment %}
+

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+  <h2>Add Question to {{ test.title }}</h2>
+
+  <form method="POST" enctype="multipart/form-data" class="p-3 border rounded shadow-sm">
+    {% csrf_token %}
+    {{ form.as_p }}   <!-- ✅ Image field automatically included -->
+
+    <button type="submit" class="btn btn-success w-100">Add Question</button>
+    {% comment %} <p>DEBUG: {{ form.fields }}</p>
+    <p>{{ form.image.label_tag }} {{ form.image }}</p> {% endcomment %}
+
+
+  </form>
+
+  <hr>
+
+  <h3>Questions in this Test</h3>
+  {% for q in questions %}
+    <div class="border p-2 mb-2">
+      <p><strong>{{ q.question }}</strong></p>
+      {% if q.image %}
+        <img src="{{ q.image.url }}" alt="Question Image" width="120" class="img-thumbnail">
+      {% endif %}
+      <small>Correct Answer: {{ q.correct_answer }}</small>
+    </div>
+  {% empty %}
+    <p>No questions yet.</p>
+  {% endfor %}
+</div>
+{% endblock %}

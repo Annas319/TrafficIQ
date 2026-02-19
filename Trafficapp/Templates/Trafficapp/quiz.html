@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<div class="container mt-5">
+  <h2 class="mb-4">🚦 {% trans "Traffic Quiz" %}</h2>
+
+  {% if question %}
+    <div class="card p-4 shadow-sm">
+      <h5>{{ question.question }}</h5>
+      <form method="post">
+        {% csrf_token %}
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="answer" value="A" id="a">
+          <label class="form-check-label" for="a">{{ question.option_a }}</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="answer" value="B" id="b">
+          <label class="form-check-label" for="b">{{ question.option_b }}</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="answer" value="C" id="c">
+          <label class="form-check-label" for="c">{{ question.option_c }}</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="answer" value="D" id="d">
+          <label class="form-check-label" for="d">{{ question.option_d }}</label>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">
+          {% trans "Submit" %}
+        </button>
+      </form>
+
+      {% if selected_answer %}
+        <div class="mt-3">
+          {% if is_correct %}
+            <p class="text-success">✅ {% trans "Correct! Well done." %}</p>
+          {% else %}
+            <p class="text-danger">❌ {% trans "Incorrect. The correct answer was:" %}
+              {{ question.correct_answer }}.
+            </p>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  {% else %}
+    <p>{% trans "No quiz questions available." %}</p>
+  {% endif %}
+</div>
+{% endblock %}
+
+{% comment %} {% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+  <h2 class="mb-4">🚦 Traffic Quiz</h2>
+
+  {% if question %}
+    <div class="card p-4 shadow-sm">
+      <h5>{{ question.question }}</h5>
+      <form method="post">
+        {% csrf_token %}
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="answer" value="A" id="a">
+          <label class="form-check-label" for="a">{{ question.option_a }}</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="answer" value="B" id="b">
+          <label class="form-check-label" for="b">{{ question.option_b }}</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="answer" value="C" id="c">
+          <label class="form-check-label" for="c">{{ question.option_c }}</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="answer" value="D" id="d">
+          <label class="form-check-label" for="d">{{ question.option_d }}</label>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+      </form>
+
+      {% if selected_answer %}
+        <div class="mt-3">
+          {% if is_correct %}
+            <p class="text-success">✅ Correct! Well done.</p>
+          {% else %}
+            <p class="text-danger">❌ Incorrect. The correct answer was:
+              {{ question.correct_answer }}.
+            </p>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  {% else %}
+    <p>No quiz questions available.</p>
+  {% endif %}
+</div>
+{% endblock %} {% endcomment %}

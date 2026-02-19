@@ -1,0 +1,1279 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-09-01T19:50:01.659Z",
+    "user": 3,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "mani",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-09-01T20:13:13.688Z",
+    "user": 4,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "mani",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$KR0jlsGbljxaihmy8Uhs9v$HeEv6Y6kb1V8rUmcVTQsRmhbzgMazLOlembDLECG4Os=",
+    "last_login": "2025-09-25T10:11:54.443Z",
+    "is_superuser": false,
+    "username": "anas",
+    "first_name": "",
+    "last_name": "",
+    "email": "annas@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-28T08:25:32.954Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$s5cJe1QypMxTj6tfeDNQKu$ihhoMExeqZvRmFlSKMZo82Rl36mCwbVHAZGMAsSzFCA=",
+    "last_login": "2025-08-29T02:10:04.599Z",
+    "is_superuser": false,
+    "username": "ali",
+    "first_name": "",
+    "last_name": "",
+    "email": "ali@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-29T02:09:42.318Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$87pQnRfE8Y6XD7XJ0AWFHY$xBhDPBpfCDhFvpzBvvKjsRZzIKUIDiQ5b76yPY31GZk=",
+    "last_login": "2025-09-25T10:12:16.955Z",
+    "is_superuser": true,
+    "username": "mani",
+    "first_name": "",
+    "last_name": "",
+    "email": "mani@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-08-29T02:13:47Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$DcVK9PNOuS42ZSkVAE7NMn$tY3XJaeVDaZnY4EcdYu3vc+6912lzjuGDzvu2XYBUoc=",
+    "last_login": "2025-09-01T22:19:21.132Z",
+    "is_superuser": true,
+    "username": "mani1",
+    "first_name": "",
+    "last_name": "",
+    "email": "mani1@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-09-01T20:12:26.252Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$AbIS3HSI8Kx12HcnLVL0c1$zAkVxqmvT6dx0lzD8REvWILTNJYbWlrqmJt5oSUKSMw=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "newadmin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@example.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-09-04T11:28:07.010Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$5kd6sNKbBQ7NLFPY7yjKNY$t8PeWTRRyfXSFm1OUoyLOyZ1B85H+/vXa1ZFpOriiHo=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "pu",
+    "first_name": "",
+    "last_name": "",
+    "email": "pu@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-09-04T18:47:19.402Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "662aci5w9w3czhiwtnftwepcnk5zvd24",
+  "fields": {
+    "session_data": "e30:1utAL7:NfYNijmYJKCjkAjyS0nvTyuQmEwuhikp-pPelIL_sqM",
+    "expire_date": "2025-09-15T19:37:17.767Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "81oz2qbc3k1vfl68b4v5q4izne8x8gsu",
+  "fields": {
+    "session_data": "e30:1utCrw:3GqnyR3BUKbgt1_wdmL9iokpgJ1WYb6cz9jV5eXLPLk",
+    "expire_date": "2025-09-15T22:19:20.977Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8vwncjf7mql3ai2oolzbod8ym7mnfxqs",
+  "fields": {
+    "session_data": "e30:1utCvy:iZdqrWlCytsdnth4ajl9zRW630oorzrdp_TSoDx1whg",
+    "expire_date": "2025-09-15T22:23:30.713Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "90xvx06jvld7n83tq5wrz3me4ghouojd",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pCB0gIu3fcMZJgBqRqalHZlvLtt0oVu_3vvv0XAbS1ha2kJE4ur6MTld4tIz1QPwA-s91nSXNdlivJQ5EmbHGdOr9vp_h0UbGWvswKnCQfOmq3lrAwC9ZoNpMRkMzqnDcBA3pH32va2Y9QEmKPfEyU-X_ejOF8:1uw29g:_qDd5gPb2PcxouSbkIoRAgLXIt2kraWkL4tu0vVZog0",
+    "expire_date": "2025-09-23T17:29:20.033Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "c74sxid23fba7sn0z0ikpq5xv81mh2mb",
+  "fields": {
+    "session_data": "e30:1usfYu:K4VJduBcqTcdHUrkmwl0Xj0zV8H51kpG2yqtVzxnUWI",
+    "expire_date": "2025-09-14T10:45:28.818Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "l87nm6igijgjvmrktel7kfckkz0ok9eb",
+  "fields": {
+    "session_data": "e30:1utCrg:_ZGvDRio0cqbnhGPS7E2NjS-zhE-Uuri0rxGtGX5uL4",
+    "expire_date": "2025-09-15T22:19:04.723Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "t6sdz5btjzx43asojsths2f7js9skc9h",
+  "fields": {
+    "session_data": "e30:1utCv2:51kZ34LB_GQdQTIg7e6rETq5r_6319yp0B8Ski0f14k",
+    "expire_date": "2025-09-15T22:22:32.212Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uy3omuz36wsyu6nw2k7ef2rgdm1yuau8",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pCB0gIu3fcMZJgBqRqalHZlvLtt0oVu_3vvv0XAbS1ha2kJE4ur6MTld4tIz1QPwA-s91nSXNdlivJQ5EmbHGdOr9vp_h0UbGWvswKnCQfOmq3lrAwC9ZoNpMRkMzqnDcBA3pH32va2Y9QEmKPfEyU-X_ejOF8:1v1ixV:AwkRDT6mbEI6umUSGZSM7amuyKg-fJ5NeLw_j5WYMvY",
+    "expire_date": "2025-10-09T10:12:17.155Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y78muwajowlec9v38y5i17y67kpkcnl7",
+  "fields": {
+    "session_data": "e30:1utCsI:tP3u8XJ93t73hFs1lYGkpwHM2l4jJgEouyCZyMXMm5w",
+    "expire_date": "2025-09-15T22:19:42.857Z"
+  }
+},
+{
+  "model": "Trafficapp.profile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "bio": null,
+    "location": null,
+    "phone": null,
+    "city": null,
+    "profile_picture": "profile_pics/default.png"
+  }
+},
+{
+  "model": "Trafficapp.profile",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "bio": null,
+    "location": null,
+    "phone": null,
+    "city": null,
+    "profile_picture": "profile_pics/default.png"
+  }
+},
+{
+  "model": "Trafficapp.profile",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "bio": null,
+    "location": null,
+    "phone": null,
+    "city": null,
+    "profile_picture": "profile_pics/default.png"
+  }
+},
+{
+  "model": "Trafficapp.profile",
+  "pk": 4,
+  "fields": {
+    "user": 4,
+    "bio": null,
+    "location": null,
+    "phone": null,
+    "city": null,
+    "profile_picture": "profile_pics/default.png"
+  }
+},
+{
+  "model": "Trafficapp.profile",
+  "pk": 5,
+  "fields": {
+    "user": 5,
+    "bio": null,
+    "location": null,
+    "phone": null,
+    "city": null,
+    "profile_picture": "profile_pics/default.png"
+  }
+},
+{
+  "model": "Trafficapp.profile",
+  "pk": 7,
+  "fields": {
+    "user": 7,
+    "bio": null,
+    "location": null,
+    "phone": null,
+    "city": null,
+    "profile_picture": "profile_pics/default.png"
+  }
+},
+{
+  "model": "Trafficapp.quiztest",
+  "pk": 3,
+  "fields": {
+    "title": "Quiz 1",
+    "created_at": "2025-09-07T18:30:35.995Z"
+  }
+},
+{
+  "model": "Trafficapp.quiztest",
+  "pk": 4,
+  "fields": {
+    "title": "Quiz 2",
+    "created_at": "2025-09-08T07:48:40.567Z"
+  }
+},
+{
+  "model": "Trafficapp.quiztest",
+  "pk": 6,
+  "fields": {
+    "title": "Quiz 3",
+    "created_at": "2025-09-08T08:12:20.856Z"
+  }
+},
+{
+  "model": "Trafficapp.quiztest",
+  "pk": 7,
+  "fields": {
+    "title": "Quiz 4",
+    "created_at": "2025-09-08T09:34:38.983Z"
+  }
+},
+{
+  "model": "Trafficapp.quiztest",
+  "pk": 8,
+  "fields": {
+    "title": "Quiz 5",
+    "created_at": "2025-09-09T17:29:35.565Z"
+  }
+},
+{
+  "model": "Trafficapp.quiztest",
+  "pk": 9,
+  "fields": {
+    "title": "Quiz 6",
+    "created_at": "2025-09-09T17:56:00.937Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 3,
+  "fields": {
+    "test": 3,
+    "question": "سگنل پر سرخ بتی کا مطلب کیا ہے؟",
+    "option_a": "رُک جائیں",
+    "option_b": "آہستہ چلیں",
+    "option_c": "سیدھا چلتے رہیں",
+    "option_d": "ہارن بجائیں",
+    "correct_answer": "A",
+    "image": "",
+    "created_at": "2025-09-07T18:56:36.466Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 4,
+  "fields": {
+    "test": 3,
+    "question": "ڈرائیونگ لائسنس حاصل کرنے کی کم از کم عمر کیا ہے؟",
+    "option_a": "16 سال",
+    "option_b": "18 سال",
+    "option_c": "20 سال",
+    "option_d": "21 سال",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-07T18:58:23.902Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 5,
+  "fields": {
+    "test": 3,
+    "question": "سیٹ بیلٹ کس کو باندھنی لازمی ہے؟",
+    "option_a": "صرف ڈرائیور",
+    "option_b": "ڈرائیور اور اگلی سیٹ پر بیٹھا مسافر",
+    "option_c": "صرف مسافر",
+    "option_d": "کسی کو نہیں",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-07T18:59:58.085Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 6,
+  "fields": {
+    "test": 3,
+    "question": "پیدل چلنے والوں کے لیے سڑک پار کرنے کی جگہ کیا کہلاتی ہے؟",
+    "option_a": "کراسنگ لائن",
+    "option_b": "زیبرا کراسنگ",
+    "option_c": "اسپیڈ بریکر",
+    "option_d": "سگنل",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-07T19:00:50.322Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 7,
+  "fields": {
+    "test": 3,
+    "question": "ڈرائیور کو ہارن کب بجانا چاہیے؟",
+    "option_a": "ہر وقت",
+    "option_b": "صرف خطرے کی صورت میں",
+    "option_c": "ٹریفک جام میں",
+    "option_d": "سگنل پر",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-07T19:01:50.723Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 8,
+  "fields": {
+    "test": 3,
+    "question": "ڈرائیونگ کے دوران موبائل فون استعمال کرنا؟",
+    "option_a": "جائز ہے",
+    "option_b": "ممنوع ہے",
+    "option_c": "ضرورت پڑنے پر جائز ہے",
+    "option_d": "ہینڈز فری کے ساتھ جائز ہے",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-07T19:03:20.333Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 9,
+  "fields": {
+    "test": 3,
+    "question": "گاڑی کی رجسٹریشن کہاں ہونی چاہیے؟",
+    "option_a": "گھر پر",
+    "option_b": "پولیس اسٹیشن پر",
+    "option_c": "ایکسائز آفس میں",
+    "option_d": "ڈرائیونگ اسکول میں",
+    "correct_answer": "C",
+    "image": "",
+    "created_at": "2025-09-07T19:03:55.176Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 10,
+  "fields": {
+    "test": 3,
+    "question": "سڑک پر دائیں طرف اوورٹیکنگ کب کی جاسکتی ہے؟",
+    "option_a": "جب سامنے سے کوئی گاڑی نہ آرہی ہو",
+    "option_b": "کسی بھی وقت",
+    "option_c": "بائیں طرف سے",
+    "option_d": "سگنل پر",
+    "correct_answer": "A",
+    "image": "",
+    "created_at": "2025-09-07T19:05:21.307Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 11,
+  "fields": {
+    "test": 3,
+    "question": "ون وے روڈ پر الٹی سمت گاڑی چلانا؟",
+    "option_a": "جائز ہے",
+    "option_b": "جرم ہے",
+    "option_c": "اگر راستہ خالی ہو تو جائز ہے",
+    "option_d": "اجازت ہے",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-07T19:07:08.451Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 12,
+  "fields": {
+    "test": 3,
+    "question": "ڈرائیور کو نشے کی حالت میں گاڑی چلانے پر کیا سزا ہے؟",
+    "option_a": "صرف جرمانہ",
+    "option_b": "جرمانہ اور قید",
+    "option_c": "کوئی سزا نہیں",
+    "option_d": "وارننگ",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-07T19:07:41.610Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 13,
+  "fields": {
+    "test": 4,
+    "question": "گاڑی کے بائیں طرف کا آئینہ کس مقصد کے لیے ہوتا ہے؟",
+    "option_a": "سڑک کے آگے دیکھنے کے لیے",
+    "option_b": "پیچھے اور بائیں طرف کا ٹریفک دیکھنے کے لیے",
+    "option_c": "دائیں طرف دیکھنے کے لیے",
+    "option_d": "سگنل دیکھنے کے لیے",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T07:50:08.202Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 14,
+  "fields": {
+    "test": 4,
+    "question": "رات کے وقت ڈرائیونگ کرتے ہوئے ہیڈلائٹس کا استعمال کب کرنا چاہیے؟",
+    "option_a": "صرف گاؤں میں",
+    "option_b": "صرف شہر میں",
+    "option_c": "جب اندھیرا ہو",
+    "option_d": "دن میں بھی",
+    "correct_answer": "C",
+    "image": "",
+    "created_at": "2025-09-08T07:51:29.141Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 15,
+  "fields": {
+    "test": 4,
+    "question": "وور اسپیڈنگ (زیادہ رفتار) کی سزا کیا ہے؟",
+    "option_a": "کوئی سزا نہیں",
+    "option_b": "جرمانہ",
+    "option_c": "تعریف",
+    "option_d": "باری ملنا",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T07:52:30.970Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 16,
+  "fields": {
+    "test": 4,
+    "question": "اگر آپ کی گاڑی کا بریک فیل ہوجائے تو سب سے پہلا عمل کیا ہونا چاہیے؟",
+    "option_a": "گاڑی تیز کردیں",
+    "option_b": "یوٹرل کرلیں",
+    "option_c": "ہینڈ بریک استعمال کریں",
+    "option_d": "ہارن بجائیں",
+    "correct_answer": "C",
+    "image": "",
+    "created_at": "2025-09-08T07:58:19.322Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 17,
+  "fields": {
+    "test": 4,
+    "question": "اگر ٹریفک پولیس افسر آپ کو رُکنے کا اشارہ دے تو کیا کرنا چاہیے؟",
+    "option_a": "تیز بھاگ جائیں",
+    "option_b": "نظر انداز کریں",
+    "option_c": "فوراً گاڑی روکیں",
+    "option_d": "ہارن بجائیں",
+    "correct_answer": "C",
+    "image": "",
+    "created_at": "2025-09-08T08:02:12.473Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 18,
+  "fields": {
+    "test": 4,
+    "question": "بغیر ہیلمٹ موٹر سائیکل چلانے پر کیا سزا ہے؟",
+    "option_a": "کچھ نہیں",
+    "option_b": "جرمانہ",
+    "option_c": "وارننگ",
+    "option_d": "قید",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T08:02:57.536Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 19,
+  "fields": {
+    "test": 4,
+    "question": "انڈیکیٹر (Indicator) کس کے لیے استعمال ہوتا ہے؟",
+    "option_a": "گاڑی کا ہارن بجانے کے لیے",
+    "option_b": "رخ یا لین تبدیل کرنے کے لیے",
+    "option_c": "گاڑی اسٹارٹ کرنے کے لیے",
+    "option_d": "رفتار بڑھانے کے لیے",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T08:03:58.581Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 20,
+  "fields": {
+    "test": 4,
+    "question": "ہسپتال کے قریب گاڑی چلانے کا اصول کیا ہے؟",
+    "option_a": "ہارن بجائیں",
+    "option_b": "آہستہ چلائیں",
+    "option_c": "رفتار بڑھائیں",
+    "option_d": "اوورٹیک کریں",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T08:04:39.535Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 21,
+  "fields": {
+    "test": 4,
+    "question": "\"P\" سائن کا مطلب کیا ہے؟",
+    "option_a": "پارکنگ کی جگہ",
+    "option_b": "پیٹرول پمپ",
+    "option_c": "پولیس چیک پوسٹ",
+    "option_d": "پیدل پار",
+    "correct_answer": "A",
+    "image": "",
+    "created_at": "2025-09-08T08:05:23.389Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 22,
+  "fields": {
+    "test": 4,
+    "question": "اگر سگنل سبز ہو لیکن سڑک پر پیدل لوگ چل رہے ہوں تو کیا کرنا چاہیے؟",
+    "option_a": "گاڑی تیز کریں",
+    "option_b": "پیدل چلنے والوں کو کراس کرنے دیں",
+    "option_c": "بریک نہ لگائیں",
+    "option_d": "صرف ہارن بجائیں",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T08:06:27.128Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 23,
+  "fields": {
+    "test": 6,
+    "question": "زرد (Yellow) سگنل کا مطلب کیا ہے؟",
+    "option_a": "گاڑی روکیں",
+    "option_b": "گاڑی تیز کریں",
+    "option_c": "پارکنگ کریں",
+    "option_d": "اوورٹیک کریں",
+    "correct_answer": "A",
+    "image": "",
+    "created_at": "2025-09-08T08:13:19.010Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 24,
+  "fields": {
+    "test": 6,
+    "question": "رات کے وقت گاڑی کی \"ڈپر لائٹ\" کب استعمال کی جاتی ہے؟",
+    "option_a": "سڑک خالی ہو تو",
+    "option_b": "دوسری گاڑی آ رہی ہو",
+    "option_c": "دن کے وقت",
+    "option_d": "گاڑی بند کرنے سے پہلے",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T08:13:58.013Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 25,
+  "fields": {
+    "test": 6,
+    "question": "سڑک عبور کرنے والے پیدل افراد کو کیا کہا جاتا ہے؟",
+    "option_a": "ڈرائیور",
+    "option_b": "راہگیر",
+    "option_c": "ٹریفک وارڈن",
+    "option_d": "سگنل",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T08:14:57.071Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 26,
+  "fields": {
+    "test": 6,
+    "question": "\"No U-Turn\" سائن کا مطلب کیا ہے؟",
+    "option_a": "یوٹرن لینا منع ہے",
+    "option_b": "گاڑی روکنا",
+    "option_c": "صرف موٹر سائیکل کی اجازت ہے",
+    "option_d": "اوورٹیک کرنا",
+    "correct_answer": "A",
+    "image": "",
+    "created_at": "2025-09-08T08:15:45.603Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 27,
+  "fields": {
+    "test": 6,
+    "question": "ڈرائیونگ کے دوران موبائل فون استعمال کرنے پر کیا سزا ہے؟",
+    "option_a": "تعریف",
+    "option_b": "جرمانہ",
+    "option_c": "کوئی سزا نہیں",
+    "option_d": "باری ملنا",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T08:16:18.664Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 28,
+  "fields": {
+    "test": 6,
+    "question": "حادثے کی صورت میں سب سے پہلا قدم کیا ہونا چاہیے؟",
+    "option_a": "موقع سے بھاگ جانا",
+    "option_b": "ایمبولینس یا پولیس کو اطلاع دینا",
+    "option_c": "گاڑی تیز کرنا",
+    "option_d": "ہارن بجانا",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T08:17:03.805Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 29,
+  "fields": {
+    "test": 6,
+    "question": "\"Stop\" سائن کا مطلب کیا ہے؟",
+    "option_a": "رفتار کم کریں",
+    "option_b": "گاڑی روکیں",
+    "option_c": "رفتار بڑھائیں",
+    "option_d": "اوورٹیک کریں",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T08:18:04.810Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 31,
+  "fields": {
+    "test": 6,
+    "question": "یڈلائٹس کی ہائی بیم کب استعمال کرنی چاہیے؟",
+    "option_a": "شہر میں",
+    "option_b": "رات کو کھلی سڑک پر",
+    "option_c": "ٹریفک سگنل پر",
+    "option_d": "دن کے وقت",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T09:30:54.988Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 32,
+  "fields": {
+    "test": 6,
+    "question": "سڑک پر ٹوٹی ہوئی سفید لکیر کا مطلب کیا ہے؟",
+    "option_a": "لین تبدیل کی جا سکتی ہے",
+    "option_b": "رکنا ہے",
+    "option_c": "اوورٹیک نہیں کرنا",
+    "option_d": "یو ٹرن لینا ہے",
+    "correct_answer": "A",
+    "image": "",
+    "created_at": "2025-09-08T09:33:38.179Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 34,
+  "fields": {
+    "test": 6,
+    "question": "ڈرائیونگ لائسنس کے بغیر گاڑی چلانا کس جرم میں آتا ہے؟",
+    "option_a": "کوئی جرم نہیں",
+    "option_b": "قابلِ سزا جرم",
+    "option_c": "تعریف",
+    "option_d": "معمولی غلطی",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T09:33:57.635Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 37,
+  "fields": {
+    "test": 7,
+    "question": "اگر ٹریفک سگنل بند (خراب) ہو تو ڈرائیور کو کیا کرنا چاہیے؟",
+    "option_a": "گاڑی تیز کرنی چاہیے",
+    "option_b": "رک کر احتیاط سے دیکھ کر گزرنا چاہیے",
+    "option_c": "ہارن بجا کر گزرنا چاہیے",
+    "option_d": "کسی اور کا انتظار کرنا چاہیے",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T10:03:23.049Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 38,
+  "fields": {
+    "test": 7,
+    "question": "گاڑی چلاتے وقت سب سے اہم چیز کون سی ہے؟",
+    "option_a": "موسیقی سننا",
+    "option_b": "ٹریفک قوانین پر عمل کرنا",
+    "option_c": "زیادہ تیز چلانا",
+    "option_d": "موبائل استعمال کرنا",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T10:04:11.015Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 39,
+  "fields": {
+    "test": 7,
+    "question": "\"اسپیڈ بریکر\" کا مقصد کیا ہے؟",
+    "option_a": "گاڑی روکنا",
+    "option_b": "گاڑی کی رفتار کم کروانا",
+    "option_c": "لین بدلنا",
+    "option_d": "گاڑی پارک کرنا",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T10:04:53.132Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 40,
+  "fields": {
+    "test": 7,
+    "question": "اگر پولیس اہلکار ہاتھ اوپر کر کے رکے تو ڈرائیور کو کیا کرنا چاہیے؟",
+    "option_a": "گاڑی تیز کرنی چاہیے",
+    "option_b": "رک جانا چاہیے",
+    "option_c": "یو ٹرن لینا چاہیے",
+    "option_d": "ہارن بجانا چاہیے",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T10:05:32.304Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 41,
+  "fields": {
+    "test": 7,
+    "question": "موٹر سائیکل سوار کے لیے لازمی حفاظتی چیز کیا ہے؟",
+    "option_a": "دستانے",
+    "option_b": "ہیلمٹ",
+    "option_c": "جوتے",
+    "option_d": "چشمہ",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T10:06:14.186Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 42,
+  "fields": {
+    "test": 7,
+    "question": "\"Stop\" کا سائن دیکھ کر کیا کرنا چاہیے؟",
+    "option_a": "گاڑی آہستہ کرنی ہے",
+    "option_b": "گاڑی مکمل روکنی ہے",
+    "option_c": "صرف ہارن بجانا ہے",
+    "option_d": "رفتار بڑھانی ہے",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T10:07:02.044Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 43,
+  "fields": {
+    "test": 7,
+    "question": "انڈیکیٹر کا استعمال کب کرنا چاہیے؟",
+    "option_a": "اوورٹیک کرتے وقت",
+    "option_b": "گاڑی صاف کرتے وقت",
+    "option_c": "سڑک پر رکنے کے لیے",
+    "option_d": "گاڑی اسٹارٹ کرتے وقت",
+    "correct_answer": "A",
+    "image": "",
+    "created_at": "2025-09-08T10:07:42.282Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 44,
+  "fields": {
+    "test": 7,
+    "question": "اگر آپ کے پیچھے ایمبولینس آ رہی ہو تو کیا کرنا چاہیے؟",
+    "option_a": "رفتار بڑھانی چاہیے",
+    "option_b": "راستہ خالی کرنا چاہیے",
+    "option_c": "ہارن بجانا چاہیے",
+    "option_d": "بریک لگانی چاہیے",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T10:09:09.964Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 45,
+  "fields": {
+    "test": 7,
+    "question": "رات کے وقت گاڑی کھڑی کرتے وقت کیا آن رکھنا ضروری ہے؟",
+    "option_a": "انڈیکیٹر",
+    "option_b": "پارکنگ لائٹس",
+    "option_c": "ہیڈ لائٹس ہائی بیم",
+    "option_d": "ہارن",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T10:19:03.326Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 46,
+  "fields": {
+    "test": 7,
+    "question": "جب آپ ہائی وے پر ڈرائیو کر رہے ہوں تو کم از کم کتنے فاصلے پر آگے والی گاڑی سے رہنا چاہیے؟\r\nA) آدھا میٹر\r\nB) 2 سیکنڈ کا فاصلہ ✅\r\nC) کوئی فاصلہ ضروری نہیں\r\nD)",
+    "option_a": "آدھا میٹر",
+    "option_b": "سیکنڈ کا فاصلہ 2",
+    "option_c": "کوئی فاصلہ ضروری نہیں",
+    "option_d": "ایک انچ",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-08T10:20:09.960Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 49,
+  "fields": {
+    "test": 8,
+    "question": "یہ سائن کیا ظاہر کرتا ہے؟",
+    "option_a": "راستہ دیں",
+    "option_b": "گاڑی کھڑی نہ کریں",
+    "option_c": "رک جائیں",
+    "option_d": "اسکول زون",
+    "correct_answer": "C",
+    "image": "",
+    "created_at": "2025-09-19T09:51:44.957Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 50,
+  "fields": {
+    "test": 8,
+    "question": "یہ سائن کیا مطلب رکھتا ہے؟",
+    "option_a": "گاڑیاں اجازت شدہ ہیں",
+    "option_b": "گاڑیوں کا داخلہ ممنوع ہے",
+    "option_c": "پارکنگ زون",
+    "option_d": "ایک طرفہ راستہ",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-19T10:29:23.735Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 51,
+  "fields": {
+    "test": 8,
+    "question": "یہ سائن کیا ظاہر کرتا ہے؟",
+    "option_a": "ایک طرفہ سڑک",
+    "option_b": "سیدھا راستہ صرف",
+    "option_c": "اوور ٹیکنگ کی اجازت",
+    "option_d": "ہائی وے ختم",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-19T10:31:00.376Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 52,
+  "fields": {
+    "test": 8,
+    "question": "یہ سائن کیا ظاہر کرتا ہے؟",
+    "option_a": "بچے کھیل رہے ہیں",
+    "option_b": "پیدل چلنے والوں کی کراسنگ",
+    "option_c": "زیبرا کراسنگ بند ہے",
+    "option_d": "اسکول آگے ہے",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-19T10:32:19.611Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 53,
+  "fields": {
+    "test": 8,
+    "question": "یہ سائن کیا ظاہر کرتا ہے؟",
+    "option_a": "پھسلن والی سڑک",
+    "option_b": "تیز موڑ",
+    "option_c": "ہائی وولٹیج علاقہ",
+    "option_d": "اسپیڈ بریکر",
+    "correct_answer": "C",
+    "image": "",
+    "created_at": "2025-09-19T10:33:38.656Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 54,
+  "fields": {
+    "test": 8,
+    "question": "یہ سائن کیا مطلب رکھتا ہے؟",
+    "option_a": "یو ٹرن کی اجازت ہے",
+    "option_b": "داخلہ ممنوع ہے",
+    "option_c": "صرف بائیں مڑیں",
+    "option_d": "صرف دائیں مڑیں",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-19T10:35:00.446Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 55,
+  "fields": {
+    "test": 8,
+    "question": "یہ سائن کیا ظاہر کرتا ہے؟",
+    "option_a": "سائیکل ٹریک آگے ہے",
+    "option_b": "سائیکل چلانا ممنوع ہے",
+    "option_c": "سائیکل سواروں کے لیے آہستہ چلیں",
+    "option_d": "سائیکل پارکنگ",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-19T10:36:06.306Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 56,
+  "fields": {
+    "test": 8,
+    "question": "یہ سائن کیا مطلب رکھتا ہے؟",
+    "option_a": "یو ٹرن کی اجازت ہے",
+    "option_b": "یو ٹرن ممنوع ہے",
+    "option_c": "صرف بائیں مڑیں",
+    "option_d": "آگے ڈائیورژن ہے",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-19T10:37:14.736Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 57,
+  "fields": {
+    "test": 8,
+    "question": "یہ سائن کیا ظاہر کرتا ہے؟",
+    "option_a": "پارکنگ کی اجازت ہے",
+    "option_b": "پارکنگ ممنوع ہے",
+    "option_c": "صرف پرائیویٹ پارکنگ",
+    "option_d": "بس اسٹاپ",
+    "correct_answer": "A",
+    "image": "",
+    "created_at": "2025-09-19T10:42:52.050Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 58,
+  "fields": {
+    "test": 8,
+    "question": "یہ سائن کیا ظاہر کرتا ہے؟",
+    "option_a": "اسکول آگے ہے",
+    "option_b": "حادثے کا مقام",
+    "option_c": "عمومی احتیاط / خطرہ آگے ہے",
+    "option_d": "ریلوے کراسنگ",
+    "correct_answer": "D",
+    "image": "",
+    "created_at": "2025-09-19T10:45:14.255Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 59,
+  "fields": {
+    "test": 9,
+    "question": "یہ نشان  کس کے لیے ہے؟",
+    "option_a": "بسوں کا داخلہ ممنوع ہے",
+    "option_b": "ٹرکوں کا داخلہ ممنوع ہے",
+    "option_c": "کاروں کا داخلہ ممنوع ہے",
+    "option_d": "موٹر سائیکل کا داخلہ ممنوع ہے",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-19T11:15:48.103Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 60,
+  "fields": {
+    "test": 9,
+    "question": "یہ نشان  کیا بتاتا ہے؟",
+    "option_a": "آگے سے بائیں طرف مڑنا ہے",
+    "option_b": "آگے یو ٹرن کی اجازت ہے",
+    "option_c": "آگے یو ٹرن ممنوع ہے",
+    "option_d": "آگے سے سیدھا راستہ ہے",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-19T11:23:58.308Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 61,
+  "fields": {
+    "test": 9,
+    "question": "یہ نشان کیا ظاہر کرتا ہے؟",
+    "option_a": "پیدل چلنے والوں کے لیے مخصوص راستہ",
+    "option_b": "پیدل چلنے والوں کا داخلہ منع ہے",
+    "option_c": "اسکول کراسنگ زون",
+    "option_d": "فٹ پاتھ",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-19T11:25:22.093Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 62,
+  "fields": {
+    "test": 9,
+    "question": "یہ نشان کا مطلب کیا ہے؟",
+    "option_a": "تمام گاڑیوں کا داخلہ منع ہے",
+    "option_b": "صرف کاروں کا داخلہ منع ہے",
+    "option_c": "ہیوی ٹریفک منع ہے",
+    "option_d": "صرف موٹر سائیکل کی اجازت ہے",
+    "correct_answer": "A",
+    "image": "",
+    "created_at": "2025-09-19T11:26:24.813Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 63,
+  "fields": {
+    "test": 9,
+    "question": "یہ نشان کا مطلب کیا ہے؟",
+    "option_a": "صرف بائیں طرف جانا ہے",
+    "option_b": "دائیں طرف جانا منع ہے",
+    "option_c": "آگے سیدھا جاؤ",
+    "option_d": "رفتار کی حد 30 ہے",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-19T11:27:45.391Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 64,
+  "fields": {
+    "test": 9,
+    "question": "یہ نشان کا مطلب کیا ہے؟",
+    "option_a": "ہارن بجانا لازمی ہے",
+    "option_b": "ہارن بجانا منع ہے",
+    "option_c": "گاڑی کا انجن بند کرو",
+    "option_d": "آگے پولیس چیک پوسٹ ہے",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-19T11:28:39.088Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 65,
+  "fields": {
+    "test": 9,
+    "question": "یہ نشان  کا مطلب کیا ہے؟",
+    "option_a": "جانور کراسنگ (مویشی سڑک پر آ سکتے ہیں)",
+    "option_b": "اسکول زون",
+    "option_c": "بس اسٹاپ",
+    "option_d": "ہائی وے اختتام",
+    "correct_answer": "A",
+    "image": "",
+    "created_at": "2025-09-19T11:29:38.410Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 66,
+  "fields": {
+    "test": 9,
+    "question": "یہ نشان کا مطلب کیا ہے؟",
+    "option_a": "پہاڑی سڑک آگے ہے",
+    "option_b": "سڑک بند ہے",
+    "option_c": "صرف جیپ کی اجازت ہے",
+    "option_d": "رفتار کی کوئی حد نہیں",
+    "correct_answer": "A",
+    "image": "",
+    "created_at": "2025-09-19T11:31:55.458Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 67,
+  "fields": {
+    "test": 9,
+    "question": "یہ نشان کا مطلب کیا ہے؟",
+    "option_a": "آگے سے سڑک دو حصوں میں بٹ جائے گی (Divided Road Ahead)",
+    "option_b": "یو ٹرن لینا ہے",
+    "option_c": "ایک طرفہ ٹریفک ہے",
+    "option_d": "صرف دائیں طرف مڑ سکتے ہیں",
+    "correct_answer": "A",
+    "image": "",
+    "created_at": "2025-09-19T11:33:13.755Z"
+  }
+},
+{
+  "model": "Trafficapp.quizquestion",
+  "pk": 68,
+  "fields": {
+    "test": 9,
+    "question": "یہ نشان کا مطلب کیا ہے؟",
+    "option_a": "آگے ٹریفک جام ہے",
+    "option_b": "سڑک پر کام جاری ہے (Road Work Ahead)",
+    "option_c": "صرف کاروں کی اجازت ہے",
+    "option_d": "پارکنگ ایریا",
+    "correct_answer": "B",
+    "image": "",
+    "created_at": "2025-09-19T11:34:00.983Z"
+  }
+},
+{
+  "model": "Trafficapp.quizattempt",
+  "pk": 10,
+  "fields": {
+    "user": 3,
+    "test": 3,
+    "score": 10,
+    "total": 10,
+    "attempted_at": "2025-09-07T19:09:07.636Z"
+  }
+},
+{
+  "model": "Trafficapp.trafficrule",
+  "pk": 2,
+  "fields": {
+    "title": "Highway Code Book",
+    "file": "rules_files/highway_code_book_YvN3ZFu.pdf",
+    "created_at": "2025-09-05T20:06:41.679Z",
+    "added_by": 3
+  }
+},
+{
+  "model": "Trafficapp.trafficrule",
+  "pk": 3,
+  "fields": {
+    "title": "Drivers Learner Authority Rules 2014",
+    "file": "rules_files/Drivers-Learner-Authority-Rules-2014-with-amendmetns-PDF-Version-1.pdf",
+    "created_at": "2025-09-05T20:07:41.849Z",
+    "added_by": 3
+  }
+},
+{
+  "model": "Trafficapp.trafficrule",
+  "pk": 4,
+  "fields": {
+    "title": "National Highway Motorways Dimension of Goods Transport Vehicle Rules 2017",
+    "file": "rules_files/National-HIghways-Motorways-Dimension-of-Goods-Transport-Vehicle-Rules-2017.pdf",
+    "created_at": "2025-09-05T20:09:40.149Z",
+    "added_by": 3
+  }
+},
+{
+  "model": "Trafficapp.trafficrule",
+  "pk": 5,
+  "fields": {
+    "title": "National Highway Safety Ordinance",
+    "file": "rules_files/NHSO-PDF-VERSION-BOOK.pdf",
+    "created_at": "2025-09-05T20:10:48.280Z",
+    "added_by": 3
+  }
+}
+]

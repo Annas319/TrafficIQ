@@ -1,0 +1,70 @@
+/* -------------------------
+   TrafficIQ Theme Styling
+--------------------------- */
+
+.traffic-card {
+    max-width: 420px;
+    margin: 40px auto;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 30px 25px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.08);
+    border-top: 6px solid #f7c623; /* traffic yellow */
+}
+
+.traffic-heading {
+    text-align: center;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.traffic-subtext {
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.traffic-input {
+    border-radius: 10px;
+    padding: 12px;
+    border: 1.5px solid #ccc;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.traffic-input:focus {
+    border-color: #f7c623;
+    box-shadow: 0 0 5px rgba(247, 198, 35, 0.5);
+}
+
+.traffic-btn {
+    background: #f7c623;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #000;
+    transition: 0.3s;
+}
+
+.traffic-btn:hover {
+    background: #e1b31f;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+}
+
+.back-link:hover {
+    color: #000;
+    text-decoration: underline;
+}

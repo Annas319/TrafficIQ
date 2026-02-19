@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<div class="container mt-5">
+  <h2 class="mb-4 text-center">📚 {% trans "Tutorials" %}</h2>
+
+  <div class="list-group shadow-sm row">
+   {% for t in tutorials %}
+  <div class="list-group-item">
+    {% if LANGUAGE_CODE == 'ur' and t.title_ur %}
+      <h5>{{ t.title_ur }}</h5>
+    {% else %}
+      <h5>{{ t.title_en }}</h5>
+    {% endif %}
+    {% if t.file %}
+      <a href="{{ t.file.url }}" target="_blank" class="btn btn-sm btn-primary mt-2">
+        📖 {% trans "View Tutorial" %}
+      </a>
+        <a href="{{ t.file.url }}" download class="btn btn-sm btn-success mt-2">
+          ⬇️ {% trans "Download" %}
+        </a>
+    {% endif %}
+  </div>
+{% endfor %}
+
+  </div>
+</div>
+{% endblock %}
+
+{% comment %} {% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+  <h2 class="mb-4 text-center">📚 Tutorials</h2>
+
+  <div class="list-group shadow-sm row">
+    {% for t in tutorials %}
+      <div class="list-group-item">
+        <h5>{{ t.title }}</h5>
+        {% if t.file %}
+          <a href="{{ t.file.url }}" target="_blank" class="btn btn-sm btn-primary mt-2">
+            📖 View Tutorial
+          </a>
+        {% endif %}
+      </div>
+    {% empty %}
+      <p class="text-center text-muted">No tutorials available yet.</p>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %} {% endcomment %}

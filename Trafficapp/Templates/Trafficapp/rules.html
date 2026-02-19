@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+
+<div class="container mt-5">
+  <h2 class="mb-4 text-center fw-bold">🚦 {% trans "Traffic Rules & Regulations" %}</h2>
+  <p class="text-center text-muted mb-5">
+    {% trans "Access official traffic laws, highway code, and important documents published by Pakistan Traffic Police." %}
+  </p>
+
+  <div class="list-group shadow-sm">
+    {% if rules %}
+      {% for rule in rules %}
+  <div class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+    <div>
+      {% if LANGUAGE_CODE == 'ur' and rule.title_ur %}
+        <h6 class="fw-bold mb-1">{{ rule.title_ur }}</h6>
+      {% else %}
+        <h6 class="fw-bold mb-1">{{ rule.title_en }}</h6>
+      {% endif %}
+      <small class="text-secondary">
+        📅 {{ rule.created_at|date:"M d, Y" }} &nbsp;
+      </small>
+    </div>
+
+    {% if rule.file %}
+      <a href="{{ rule.file.url }}" target="_blank" class="btn btn-sm btn-primary">
+        {% trans "Download" %}
+      </a>
+    {% endif %}
+  </div>
+{% endfor %}
+    {% else %}
+      <p class="text-center text-muted">
+        {% trans "No traffic rules have been uploaded yet." %}
+      </p>
+    {% endif %}
+  </div>
+</div>
+
+{% endblock %}

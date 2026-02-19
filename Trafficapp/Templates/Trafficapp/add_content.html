@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+    <h2>📚 Add Content</h2>
+    <p>Here admin can add Tutorials, Rules, or Quiz Questions.</p>
+
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">➕ Add Tutorial</a>
+        <a href="#" class="list-group-item list-group-item-action">➕ Add Rule</a>
+        <a href="{% url 'add_quiz_question' %}" class="list-group-item list-group-item-action">➕ Add Quiz Question</a>
+    </div>
+</div>
+{% endblock %}

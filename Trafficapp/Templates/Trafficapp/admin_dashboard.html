@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+  <h2>Admin Dashboard</h2>
+  <div class="list-group">
+
+    <!-- Manage Quiz -->
+    <a href="{% url 'quiz_tests' %}" class="list-group-item list-group-item-action">
+      📋 Manage Quiz 
+    </a>
+
+    <!-- Manage Users -->
+    <a href="{% url 'manage_users' %}" class="list-group-item list-group-item-action">
+      👥 Manage Users
+    </a>
+
+    <!-- Manage Rules -->
+    <a href="{% url 'manage_rules' %}" class="list-group-item list-group-item-action">
+      📘 Manage Rules
+    </a>
+    <a href="{% url 'manage_tutorials' %}" class="list-group-item list-group-item-action">
+      📚 Manage Tutorials
+    </a>
+
+    <!-- Reports -->
+    <a href="{% url 'reports' %}" class="list-group-item list-group-item-action">
+      📊 View Reports
+    </a>
+  </div>
+</div>
+{% endblock %}

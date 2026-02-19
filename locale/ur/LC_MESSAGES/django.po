@@ -1,0 +1,1658 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-17 23:55+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\Trafficapp\Templates\Trafficapp\add_rule.html:5
+#, fuzzy
+#| msgid "Traffic Rules"
+msgid "Add Traffic Rule"
+msgstr "ٹریفک قوانین"
+
+#: .\Trafficapp\Templates\Trafficapp\add_rule.html:9
+msgid "Save Rule"
+msgstr ""
+
+#: .\Trafficapp\Templates\Trafficapp\add_rule.html:10
+msgid "Cancel"
+msgstr ""
+
+#: .\Trafficapp\Templates\Trafficapp\add_tutorial.html:5
+#: .\Trafficapp\Templates\Trafficapp\add_tutorial.html:9
+#, fuzzy
+#| msgid "Tutorials"
+msgid "Add Tutorial"
+msgstr "ٹیوٹوریلز دیکھیں"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:56
+msgid "Know the Rules, Save Lives"
+msgstr "قوانین جانیے، زندگیاں بچائیے"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:60
+msgid ""
+"Master Pakistan's traffic rules with TrafficIQ – your complete road safety "
+"guide."
+msgstr ""
+"ٹریفک آئی کیو کے ساتھ پاکستان کے ٹریفک قوانین سیکھیں – آپ کی مکمل روڈ سیفٹی "
+"رہنمائی۔"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:64
+msgid "Start Learning Now"
+msgstr "ابھی سیکھنا شروع کریں"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:77
+msgid "Less Boring... More Learning!"
+msgstr "کم بورنگ... زیادہ سیکھنے کا مزہ!"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:81
+msgid ""
+"\n"
+"                    We’ve all been there. You scroll through endless traffic "
+"rule books.\n"
+"                    You wonder if you’re actually learning anything. You’d "
+"rather be\n"
+"                    watching Netflix or having a burger. We totally get it!\n"
+"                    "
+msgstr ""
+"\n"
+"ہم سب اس مرحلے سے گزرے ہیں۔ آپ بے شمار ٹریفک قوانین کی کتابیں دیکھتے ہیں۔\n"
+"سوچتے ہیں کہ کیا واقعی کچھ سیکھ رہے ہیں۔ آپ کو لگتا ہے کہ نیٹ فلکس دیکھنا یا "
+"برگر کھانا بہتر ہے۔\n"
+"ہم بالکل سمجھتے ہیں!"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:89
+msgid ""
+"\n"
+"                    At TrafficIQ, we make learning road safety and driving "
+"rules fun,\n"
+"                    simple, and engaging. No heavy textbooks. No complicated "
+"jargon.\n"
+"                    Just interactive quizzes, easy tutorials, and traffic "
+"rules \n"
+"                    explained so clearly, you’ll feel confident behind the "
+"wheel \n"
+"                    in no time.\n"
+"                    "
+msgstr ""
+"\n"
+"ٹریفک آئی کیو میں ہم روڈ سیفٹی اور ڈرائیونگ قوانین کو سیکھنا دلچسپ، آسان اور "
+"دلکش بناتے ہیں۔\n"
+"نہ بھاری کتابیں، نہ مشکل اصطلاحات۔\n"
+"صرف انٹرایکٹو کوئزز، آسان ٹیوٹوریلز اور ٹریفک قوانین کی واضح وضاحت،\n"
+"تاکہ آپ جلد ہی گاڑی چلانے میں پراعتماد محسوس کریں۔"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:99
+msgid "Who knew learning traffic laws could actually be enjoyable?"
+msgstr "کون جانتا تھا کہ ٹریفک قوانین سیکھنا دلچسپ بھی ہوسکتا ہے؟"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:116
+msgid "Why Choose TrafficIQ?"
+msgstr "ٹریفک آئی کیو کیوں منتخب کریں؟"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:123
+msgid "Understand Road Signs"
+msgstr "سڑک کے نشانات کو سمجھیں"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:124
+msgid "Learn the meanings of traffic signs used across Pakistan."
+msgstr "پاکستان بھر میں استعمال ہونے والے ٹریفک نشانات کے معنی سیکھیں۔"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:131
+msgid "Pass License Tests"
+msgstr "لائسنس ٹیسٹ پاس کریں"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:132
+msgid "Practice mock tests to prepare for official driving exams."
+msgstr "سرکاری ڈرائیونگ امتحانات کی تیاری کے لیے مشقی ٹیسٹ کریں۔"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:139
+msgid "Learn on the Go"
+msgstr "چلتے پھرتے سیکھیں"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:140
+msgid "Mobile-friendly platform so you can learn anytime, anywhere."
+msgstr "موبائل فرینڈلی پلیٹ فارم تاکہ آپ کہیں بھی، کبھی بھی سیکھ سکیں۔"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:152
+msgid "Learn Smarter with TrafficIQ"
+msgstr "ٹریفک آئی کیو کے ساتھ آسانی سے سیکھیں"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:164
+msgid "Traffic Rules"
+msgstr "ٹریفک قوانین"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:166
+msgid ""
+"Discover essential road rules explained simply to help you drive safe and "
+"smart."
+msgstr ""
+"اہم سڑک کے قوانین آسان انداز میں جانیں تاکہ آپ محفوظ اور سمجھداری سے گاڑی "
+"چلائیں۔"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:169
+msgid "Explore Rules"
+msgstr "قوانین دیکھیں"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:182
+msgid "Interactive Tutorials"
+msgstr "انٹرایکٹو ٹیوٹوریلز"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:184
+msgid ""
+"Learn step-by-step with engaging tutorials designed to make driving "
+"knowledge simple."
+msgstr ""
+"دلچسپ ٹیوٹوریلز کے ذریعے مرحلہ وار سیکھیں جو ڈرائیونگ علم کو آسان بناتے ہیں۔"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:187
+msgid "View Tutorials"
+msgstr "ٹیوٹوریلز دیکھیں"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:200
+#: .\Trafficapp\Templates\Trafficapp\quiz.html:5
+msgid "Traffic Quiz"
+msgstr "ٹریفک کوئز"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:202
+msgid "Test your knowledge with fun quizzes and track your progress instantly."
+msgstr ""
+"دلچسپ کوئزز کے ذریعے اپنا علم آزمائیں اور فوری طور پر اپنی پیشرفت دیکھیں۔"
+
+#: .\Trafficapp\Templates\Trafficapp\landing.html:205
+msgid "Take Quiz"
+msgstr "کوئز دیں"
+
+#: .\Trafficapp\Templates\Trafficapp\profile.html:7
+#: .\Trafficapp\Templates\base.html:189
+msgid "My Profile"
+msgstr "میرا پروفائل"
+
+#: .\Trafficapp\Templates\Trafficapp\profile.html:20
+#, fuzzy
+#| msgid "Profile"
+msgid "Profile Picture"
+msgstr "پروفائل"
+
+#: .\Trafficapp\Templates\Trafficapp\profile.html:24
+msgid "Default Profile Picture"
+msgstr ""
+
+#: .\Trafficapp\Templates\Trafficapp\profile.html:34
+#| msgid "My Profile"
+msgid "Update Profile"
+msgstr "میرا پروفائل"
+
+#: .\Trafficapp\Templates\Trafficapp\profile.html:38
+msgid "Username"
+msgstr "صارف نام"
+
+#: .\Trafficapp\Templates\Trafficapp\profile.html:41
+msgid "Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only."
+msgstr "لازمی۔ 150 حروف یا کم۔ صرف حروف، ہندسے اور @/./+/-/_ استعمال کریں۔"
+
+#: .\Trafficapp\Templates\Trafficapp\profile.html:46
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1920
+msgid "Email address"
+msgstr "ای میل پتہ"
+
+#: .\Trafficapp\Templates\Trafficapp\profile.html:51
+msgid "Phone"
+msgstr "فون"
+
+#: .\Trafficapp\Templates\Trafficapp\profile.html:56
+msgid "City"
+msgstr "شہر"
+
+
+
+#: .\Trafficapp\Templates\Trafficapp\profile.html:61
+msgid "Profile picture"
+msgstr "پروفائل تصویر"
+
+#: .\Trafficapp\Templates\Trafficapp\profile.html:66
+#, fuzzy
+#| msgid "Change"
+msgid "Save Changes"
+msgstr "تبدیل کریں"
+
+#: .\Trafficapp\Templates\Trafficapp\quiz.html:29
+msgid "Submit"
+msgstr "جمع کریں"
+
+#: .\Trafficapp\Templates\Trafficapp\quiz.html:36
+msgid "Correct! Well done."
+msgstr "صحیح! بہت خوب۔"
+
+#: .\Trafficapp\Templates\Trafficapp\quiz.html:38
+msgid "Incorrect. The correct answer was:"
+msgstr "غلط۔ درست جواب تھا:"
+
+#: .\Trafficapp\Templates\Trafficapp\quiz.html:46
+msgid "No quiz questions available."
+msgstr "کوئی کوئز سوال دستیاب نہیں۔"
+
+#: .\Trafficapp\Templates\Trafficapp\quiz_result.html:5
+msgid "Test Result"
+msgstr "ٹیسٹ کا نتیجہ"
+
+#: .\Trafficapp\Templates\Trafficapp\quiz_result.html:7
+msgid "Score"
+msgstr "اسکور"
+
+#: .\Trafficapp\Templates\Trafficapp\quiz_result.html:10
+msgid "Percentage"
+msgstr "فیصد"
+
+#: .\Trafficapp\Templates\Trafficapp\quiz_result.html:14
+msgid "Congratulations! You Passed."
+msgstr "مبارک ہو! آپ کامیاب ہوگئے۔"
+
+#: .\Trafficapp\Templates\Trafficapp\quiz_result.html:16
+msgid "Better Luck Next Time!"
+msgstr "اگلی بار کے لیے نیک تمنائیں"
+
+#: .\Trafficapp\Templates\Trafficapp\quiz_result.html:20
+msgid "Back to Home"
+msgstr "واپس ہوم پر جائیں"
+
+#: .\Trafficapp\Templates\Trafficapp\rules.html:6
+msgid "Traffic Rules & Regulations"
+msgstr "ٹریفک قوانین"
+
+#: .\Trafficapp\Templates\Trafficapp\rules.html:8
+msgid ""
+"Access official traffic laws, highway code, and important documents "
+"published by Pakistan Traffic Police."
+msgstr ""
+"پاکستان ٹریفک پولیس کی جانب سے جاری کردہ سرکاری قوانین، ہائی وے کوڈ اور اہم "
+"دستاویزات تک رسائی حاصل کریں۔"
+
+#: .\Trafficapp\Templates\Trafficapp\rules.html:28
+#: .\Trafficapp\Templates\Trafficapp\tutorials.html:20
+msgid "Download"
+msgstr "ڈاؤن لوڈ کریں"
+
+#: .\Trafficapp\Templates\Trafficapp\rules.html:35
+msgid "No traffic rules have been uploaded yet."
+msgstr "ابھی تک کوئی ٹریفک قوانین اپ لوڈ نہیں کیے گئے۔"
+
+#: .\Trafficapp\Templates\Trafficapp\tutorials.html:5
+#: .\Trafficapp\Templates\base.html:152
+msgid "Tutorials"
+msgstr "ٹیوٹوریلز دیکھیں"
+
+#: .\Trafficapp\Templates\Trafficapp\tutorials.html:17
+msgid "View Tutorial"
+msgstr "سبق دیکھیں"
+
+#: .\Trafficapp\Templates\base.html:12 .\Trafficapp\Templates\base.html:137
+#: .\Trafficapp\Templates\base.html:211 .\Trafficapp\Templates\base.html:214
+#, fuzzy
+#| msgid "Traffic Quiz"
+msgid "TrafficIQ"
+msgstr "ٹریفک کوئز"
+
+#: .\Trafficapp\Templates\base.html:136
+#, fuzzy
+#| msgid "Traffic Quiz"
+msgid "TrafficIQ Logo"
+msgstr "ٹریفک کوئز"
+
+#: .\Trafficapp\Templates\base.html:151
+msgid "Rules"
+msgstr "قوانین"
+
+#: .\Trafficapp\Templates\base.html:153
+msgid "Quiz"
+msgstr "کوئز دیں"
+
+#: .\Trafficapp\Templates\base.html:158
+msgid "English"
+msgstr "انگریزی"
+
+#: .\Trafficapp\Templates\base.html:164
+msgid "Urdu"
+msgstr "اردو"
+
+#: .\Trafficapp\Templates\base.html:169
+msgid "Dark Mode"
+msgstr "ڈارک موڈ"
+
+#: .\Trafficapp\Templates\base.html:182
+msgid "Profile"
+msgstr "پروفائل"
+
+#: .\Trafficapp\Templates\base.html:190
+msgid "Logout"
+msgstr "لاگ آؤٹ"
+
+#: .\Trafficapp\Templates\base.html:194
+msgid "Login"
+msgstr "لاگ ان"
+
+#: .\Trafficapp\Templates\base.html:211
+msgid "Learn Traffic Rules, Take Quizzes, and Stay Safe on the Road."
+msgstr "ٹریفک قوانین سیکھیں، کوئزز دیں اور سڑک پر محفوظ رہیں۔"
+
+#: .\Trafficapp\Templates\base.html:214
+msgid "Developed by"
+msgstr "تیار کردہ"
+
+#: .\venv\Lib\site-packages\django\contrib\messages\apps.py:16
+msgid "Messages"
+msgstr "پیغامات"
+
+#: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:8
+msgid "Site Maps"
+msgstr "سائٹ کے نقشے"
+
+#: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr "جامد فائلیں"
+
+#: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr "سنڈیکیشن"
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: .\venv\Lib\site-packages\django\core\paginator.py:30
+msgid "…"
+msgstr "…"
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:32
+msgid "That page number is not an integer"
+msgstr "یہ صفحہ نمبر صحیح عدد نہیں ہے"
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:33
+msgid "That page number is less than 1"
+msgstr "یہ صفحہ نمبر 1 سے کم ہے"
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:34
+msgid "That page contains no results"
+msgstr "اس صفحے پر کوئی نتائج نہیں ہیں"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:22
+msgid "Enter a valid value."
+msgstr "درست قدر درج کریں۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:70
+msgid "Enter a valid domain name."
+msgstr "درست ڈومین نام درج کریں۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:153
+#: .\venv\Lib\site-packages\django\forms\fields.py:775
+msgid "Enter a valid URL."
+msgstr "درست یو آر ایل درج کریں۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:200
+msgid "Enter a valid integer."
+msgstr "درست عدد درج کریں۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:211
+msgid "Enter a valid email address."
+msgstr "درست ای میل پتہ درج کریں۔"
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\venv\Lib\site-packages\django\core\validators.py:289
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr "درست سلگ درج کریں جو حروف، نمبروں، انڈر اسکور یا ہائفن پر مشتمل ہو۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:297
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+"درست سلگ درج کریں جو یونیکوڈ حروف، نمبروں، انڈر اسکور یا ہائفن پر مشتمل ہو۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:309
+#: .\venv\Lib\site-packages\django\core\validators.py:318
+#: .\venv\Lib\site-packages\django\core\validators.py:332
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2220
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr "درست %(protocol)s ایڈریس درج کریں۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:311
+msgid "IPv4"
+msgstr "آئی پی وی 4"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:320
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:43
+msgid "IPv6"
+msgstr "آئی پی وی 6"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:334
+msgid "IPv4 or IPv6"
+msgstr "آئی پی وی 4 یا آئی پی وی 6"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:375
+msgid "Enter only digits separated by commas."
+msgstr "صرف ہندسوں کو کوما کے ساتھ درج کریں۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:381
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr "یقینی بنائیں کہ یہ قدر %(limit_value)s ہے (یہ %(show_value)s ہے)۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:416
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr "یقینی بنائیں کہ یہ قدر %(limit_value)s سے کم یا برابر ہے۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:425
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr "یقینی بنائیں کہ یہ قدر %(limit_value)s سے زیادہ یا برابر ہے۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:434
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr "یقینی بنائیں کہ یہ قدر %(limit_value)s کے مضاعف ہے۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:441
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+"یقینی بنائیں کہ یہ قدر %(limit_value)s کے مضاعف ہے، شروع %(offset)s سے، مثلاً "
+"%(offset)s، %(valid_value1)s، %(valid_value2)s وغیرہ۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:473
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+"یقینی بنائیں کہ اس قدر میں کم از کم %(limit_value)d حرف ہے (اس میں "
+"%(show_value)d ہے)۔"
+msgstr[1] ""
+"یقینی بنائیں کہ اس قدر میں کم از کم %(limit_value)d حروف ہیں (اس میں "
+"%(show_value)d ہیں)۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:491
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+"یقینی بنائیں کہ اس قدر میں زیادہ سے زیادہ %(limit_value)d حرف ہے (اس میں "
+"%(show_value)d ہے)۔"
+msgstr[1] ""
+"یقینی بنائیں کہ اس قدر میں زیادہ سے زیادہ %(limit_value)d حروف ہیں (اس میں "
+"%(show_value)d ہیں)۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:514
+#: .\venv\Lib\site-packages\django\forms\fields.py:366
+#: .\venv\Lib\site-packages\django\forms\fields.py:405
+msgid "Enter a number."
+msgstr "ایک نمبر درج کریں۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:516
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] "یقینی بنائیں کہ کل ہندسوں کی تعداد %(max)s سے زیادہ نہ ہو۔"
+msgstr[1] "یقینی بنائیں کہ کل ہندسوں کی تعداد %(max)s سے زیادہ نہ ہو۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:521
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] "یقینی بنائیں کہ اعشاریہ کے بعد زیادہ سے زیادہ %(max)s جگہ ہو۔"
+msgstr[1] "یقینی بنائیں کہ اعشاریہ کے بعد زیادہ سے زیادہ %(max)s جگہیں ہوں۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:526
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] "یقینی بنائیں کہ اعشاریہ سے پہلے زیادہ سے زیادہ %(max)s ہندسہ ہو۔"
+msgstr[1] "یقینی بنائیں کہ اعشاریہ سے پہلے زیادہ سے زیادہ %(max)s ہندسے ہوں۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:597
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+"فائل ایکسٹینشن “%(extension)s” کی اجازت نہیں ہے۔ اجازت شدہ ایکسٹینشنز یہ "
+"ہیں: %(allowed_extensions)s۔"
+
+#: .\venv\Lib\site-packages\django\core\validators.py:659
+msgid "Null characters are not allowed."
+msgstr "خالی کریکٹرز کی اجازت نہیں ہے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1600
+#: .\venv\Lib\site-packages\django\forms\models.py:908
+msgid "and"
+msgstr "اور"
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1602
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr "%(model_name)s اس %(field_labels)s کے ساتھ پہلے سے موجود ہے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\constraints.py:22
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr "پابندی “%(name)s” کی خلاف ورزی ہوئی ہے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:134
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr "قدر %(value)r درست انتخاب نہیں ہے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:135
+msgid "This field cannot be null."
+msgstr "یہ فیلڈ خالی نہیں ہوسکتی۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:136
+msgid "This field cannot be blank."
+msgstr "یہ فیلڈ خالی نہیں چھوڑا جا سکتا۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:137
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr "%(model_name)s اس %(field_label)s کے ساتھ پہلے سے موجود ہے۔"
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:141
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+"%(field_label)s کو %(date_field_label)s %(lookup_type)s کے لیے منفرد ہونا "
+"چاہیے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:180
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr "فیلڈ کی قسم: %(field_type)s"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1162
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr "“%(value)s” قدر صرف درست یا غلط ہونی چاہیے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1163
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr "“%(value)s” قدر درست، غلط یا کوئی نہیں ہونی چاہیے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1165
+msgid "Boolean (Either True or False)"
+msgstr "بولین (یا درست یا غلط)"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1215
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr "سٹرنگ (زیادہ سے زیادہ %(max_length)s تک)"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1217
+msgid "String (unlimited)"
+msgstr "سٹرنگ (لامحدود)"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1326
+msgid "Comma-separated integers"
+msgstr "کوما سے جدا کیے گئے اعداد"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1427
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+"“%(value)s” قدر کا تاریخ فارمیٹ غلط ہے۔ یہ YYYY-MM-DD فارمیٹ میں ہونا چاہیے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1431
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1566
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr "“%(value)s” قدر کا فارمیٹ درست ہے (YYYY-MM-DD) لیکن یہ تاریخ غلط ہے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1435
+msgid "Date (without time)"
+msgstr "تاریخ (وقت کے بغیر)"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1562
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
+msgstr ""
+"“%(value)s” قدر کا فارمیٹ غلط ہے۔ یہ YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] "
+"فارمیٹ میں ہونا چاہیے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1570
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+"“%(value)s” قدر کا فارمیٹ درست ہے (YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]) لیکن "
+"یہ تاریخ/وقت غلط ہے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1575
+msgid "Date (with time)"
+msgstr "تاریخ (وقت کے ساتھ)"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1702
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr "“%(value)s” قدر اعشاریہ نمبر ہونی چاہیے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1704
+msgid "Decimal number"
+msgstr "اعشاریہ نمبر"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1864
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
+msgstr ""
+"“%(value)s” قدر کا فارمیٹ غلط ہے۔ یہ [DD] [[HH:]MM:]ss[.uuuuuu] فارمیٹ میں "
+"ہونا چاہیے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1868
+msgid "Duration"
+msgstr "دورانیہ"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1945
+msgid "File path"
+msgstr "فائل کا راستہ"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2023
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr "“%(value)s” قدر فلوٹ نمبر ہونی چاہیے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2025
+msgid "Floating point number"
+msgstr "فلوٹنگ پوائنٹ نمبر"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2065
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr "“%(value)s” قدر صحیح عدد ہونی چاہیے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2067
+msgid "Integer"
+msgstr "صحیح عدد"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2163
+msgid "Big (8 byte) integer"
+msgstr "بڑا (8 بائٹ) عدد"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2180
+msgid "Small integer"
+msgstr "چھوٹا عدد"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2188
+msgid "IPv4 address"
+msgstr "آئی پی وی 4 ایڈریس"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2219
+msgid "IP address"
+msgstr "آئی پی ایڈریس"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2310
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2311
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr "“%(value)s” قدر یا تو خالی، درست یا غلط ہونی چاہیے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2313
+msgid "Boolean (Either True, False or None)"
+msgstr "بولین (درست، غلط یا خالی)"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2364
+msgid "Positive big integer"
+msgstr "مثبت بڑا عدد"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2379
+msgid "Positive integer"
+msgstr "مثبت عدد"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2394
+msgid "Positive small integer"
+msgstr "مثبت چھوٹا عدد"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2410
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr "سلگ (زیادہ سے زیادہ %(max_length)s تک)"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2446
+msgid "Text"
+msgstr "متن"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2526
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+"“%(value)s” قدر کا فارمیٹ غلط ہے۔ یہ HH:MM[:ss[.uuuuuu]] فارمیٹ میں ہونا "
+"چاہیے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2530
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+"“%(value)s” قدر کا فارمیٹ درست ہے (HH:MM[:ss[.uuuuuu]]) لیکن یہ وقت غلط ہے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2534
+msgid "Time"
+msgstr "وقت"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2642
+msgid "URL"
+msgstr "یو آر ایل"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2666
+msgid "Raw binary data"
+msgstr "خام بائنری ڈیٹا"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2731
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr "“%(value)s” درست UUID نہیں ہے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2733
+msgid "Universally unique identifier"
+msgstr "یونیورسل منفرد شناخت کنندہ"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:244
+msgid "File"
+msgstr "فائل"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:420
+msgid "Image"
+msgstr "تصویر"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:24
+msgid "A JSON object"
+msgstr "ایک JSON آبجیکٹ"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:26
+msgid "Value must be valid JSON."
+msgstr "قدر درست JSON ہونی چاہیے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:978
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
+msgstr "%(model)s انسٹینس جس میں %(field)s %(value)r ہے درست انتخاب نہیں ہے۔"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:981
+msgid "Foreign Key (type determined by related field)"
+msgstr "فارن کی (قسم متعلقہ فیلڈ سے متعین ہوتی ہے)"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1275
+msgid "One-to-one relationship"
+msgstr "ایک سے ایک تعلق"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1332
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr "%(from)s-%(to)s تعلق"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1334
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr "%(from)s-%(to)s تعلقات"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1382
+msgid "Many-to-many relationship"
+msgstr "کئی سے کئی تعلق"
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: .\venv\Lib\site-packages\django\forms\boundfield.py:185
+msgid ":?.!"
+msgstr ":?.!"
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:95
+msgid "This field is required."
+msgstr "یہ فیلڈ لازمی ہے۔"
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:315
+msgid "Enter a whole number."
+msgstr "ایک مکمل عدد درج کریں"
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:486
+#: .\venv\Lib\site-packages\django\forms\fields.py:1267
+#, fuzzy
+#| msgid "Enter a valid value."
+msgid "Enter a valid date."
+msgstr "درست قدر درج کریں۔"
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:509
+#: .\venv\Lib\site-packages\django\forms\fields.py:1268
+#, fuzzy
+#| msgid "Enter a valid integer."
+msgid "Enter a valid time."
+msgstr "درست عدد درج کریں۔"
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:536
+#, fuzzy
+#| msgid "Enter a valid domain name."
+msgid "Enter a valid date/time."
+msgstr "درست ڈومین نام درج کریں۔"
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:570
+#, fuzzy
+#| msgid "Enter a valid domain name."
+msgid "Enter a valid duration."
+msgstr "درست ڈومین نام درج کریں۔"
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:571
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:640
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:641
+msgid "No file was submitted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:642
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:644
+#, fuzzy, python-format
+#| msgid ""
+#| "Ensure this value has at most %(limit_value)d character (it has "
+#| "%(show_value)d)."
+#| msgid_plural ""
+#| "Ensure this value has at most %(limit_value)d characters (it has "
+#| "%(show_value)d)."
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+"یقینی بنائیں کہ اس قدر میں زیادہ سے زیادہ %(limit_value)d حرف ہے (اس میں "
+"%(show_value)d ہے)۔"
+msgstr[1] ""
+"یقینی بنائیں کہ اس قدر میں زیادہ سے زیادہ %(limit_value)d حروف ہیں (اس میں "
+"%(show_value)d ہیں)۔"
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:649
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr "براہ کرم یا تو فائل جمع کریں یا کلئیر چیک باکس منتخب کریں، دونوں نہیں۔"
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:717
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+"درست تصویر اپ لوڈ کریں۔ جو فائل آپ نے اپ لوڈ کی ہے وہ یا تو تصویر نہیں ہے یا "
+"خراب ہے۔"
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:889
+#: .\venv\Lib\site-packages\django\forms\fields.py:975
+#: .\venv\Lib\site-packages\django\forms\models.py:1592
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr "درست انتخاب کریں۔ %(value)s دستیاب انتخاب میں شامل نہیں ہے۔"
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:977
+#: .\venv\Lib\site-packages\django\forms\fields.py:1096
+#: .\venv\Lib\site-packages\django\forms\models.py:1590
+msgid "Enter a list of values."
+msgstr "قدروں کی فہرست درج کریں۔"
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1097
+msgid "Enter a complete value."
+msgstr "مکمل قدر درج کریں۔"
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1339
+msgid "Enter a valid UUID."
+msgstr "درست UUID درج کریں۔"
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1369
+msgid "Enter a valid JSON."
+msgstr "درست JSON درج کریں۔"
+
+#. Translators: This is the default suffix added to form field labels
+#: .\venv\Lib\site-packages\django\forms\forms.py:97
+msgid ":"
+msgstr ":"
+
+#: .\venv\Lib\site-packages\django\forms\forms.py:239
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr "(چھپی ہوئی فیلڈ %(name)s) %(error)s"
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+"مینجمنٹ فارم کا ڈیٹا غائب ہے یا اس میں تبدیلی کی گئی ہے۔ غائب فیلڈز: "
+"%(field_names)s۔ اگر مسئلہ برقرار رہے تو آپ کو بگ رپورٹ درج کرنی پڑ سکتی ہے۔"
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] "براہ کرم زیادہ سے زیادہ %(num)d فارم جمع کریں۔"
+msgstr[1] "براہ کرم زیادہ سے زیادہ %(num)d فارم جمع کریں۔"
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] "براہ کرم کم از کم %(num)d فارم جمع کریں۔"
+msgstr[1] "براہ کرم کم از کم %(num)d فارم جمع کریں۔"
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:484
+#: .\venv\Lib\site-packages\django\forms\formsets.py:491
+msgid "Order"
+msgstr "ترتیب"
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:499
+msgid "Delete"
+msgstr "حذف کریں"
+
+#: .\venv\Lib\site-packages\django\forms\models.py:901
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr "براہ کرم %(field)s کے لیے دہرایا گیا ڈیٹا درست کریں۔"
+
+#: .\venv\Lib\site-packages\django\forms\models.py:906
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+"براہ کرم %(field)s کے لیے دہرایا گیا ڈیٹا درست کریں، جو منفرد ہونا چاہیے۔"
+
+#: .\venv\Lib\site-packages\django\forms\models.py:913
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+"براہ کرم %(field_name)s کے لیے دہرایا گیا ڈیٹا درست کریں جو %(date_field)s "
+"میں %(lookup)s کے لیے منفرد ہونا چاہیے۔"
+
+#: .\venv\Lib\site-packages\django\forms\models.py:922
+msgid "Please correct the duplicate values below."
+msgstr "براہ کرم نیچے دی گئی دہرائی گئی قدریں درست کریں۔"
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1359
+msgid "The inline value did not match the parent instance."
+msgstr "ان لائن قدر والد انسٹینس سے مطابقت نہیں رکھتی۔"
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1450
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr "درست انتخاب کریں۔ یہ انتخاب دستیاب انتخاب میں شامل نہیں ہے۔"
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1594
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr "“%(pk)s” درست قدر نہیں ہے۔"
+
+#: .\venv\Lib\site-packages\django\forms\utils.py:229
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+"%(datetime)s کو ٹائم زون %(current_timezone)s میں سمجھا نہیں جا سکا؛ یہ مبہم "
+"ہو سکتا ہے یا موجود نہ ہو۔"
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:527
+msgid "Clear"
+msgstr "صاف کریں"
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:528
+msgid "Currently"
+msgstr "فی الحال"
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:529
+msgid "Change"
+msgstr "تبدیل کریں"
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:866
+msgid "Unknown"
+msgstr "نامعلوم"
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:867
+msgid "Yes"
+msgstr "ہاں"
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:868
+msgid "No"
+msgstr "نہیں"
+
+#. Translators: Please do not add spaces around commas.
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:873
+msgid "yes,no,maybe"
+msgstr "ہاں،نہیں،شاید"
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:903
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:920
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] "%(size)d بائٹ"
+msgstr[1] "%(size)d بائٹس"
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:922
+#, python-format
+msgid "%s KB"
+msgstr "%s کلو بائٹ"
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:924
+#, python-format
+msgid "%s MB"
+msgstr "%s ایم بی"
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:926
+#, python-format
+msgid "%s GB"
+msgstr "%s جی بی"
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:928
+#, python-format
+msgid "%s TB"
+msgstr "%s ٹی بی"
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:930
+#, python-format
+msgid "%s PB"
+msgstr "%s پی بی"
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:74
+msgid "p.m."
+msgstr "شام"
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:75
+msgid "a.m."
+msgstr "صبح"
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:80
+msgid "PM"
+msgstr "پی ایم"
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:81
+msgid "AM"
+msgstr "اے ایم"
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:153
+msgid "midnight"
+msgstr "آدھی رات"
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:155
+msgid "noon"
+msgstr "دوپہر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:7
+msgid "Monday"
+msgstr "پیر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:8
+msgid "Tuesday"
+msgstr "منگل"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:9
+msgid "Wednesday"
+msgstr "بدھ"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Thursday"
+msgstr "جمعرات"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:11
+msgid "Friday"
+msgstr "جمعہ"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:12
+msgid "Saturday"
+msgstr "ہفتہ"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:13
+msgid "Sunday"
+msgstr "اتوار"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:16
+msgid "Mon"
+msgstr "پیر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:17
+msgid "Tue"
+msgstr "منگل"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "Wed"
+msgstr "بدھ"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "Thu"
+msgstr "جمعرات"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "Fri"
+msgstr "جمعہ"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:21
+msgid "Sat"
+msgstr "ہفتہ"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:22
+msgid "Sun"
+msgstr "اتوار"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:25
+msgid "January"
+msgstr "جنوری"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:26
+msgid "February"
+msgstr "فروری"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:27
+msgid "March"
+msgstr "مارچ"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:28
+msgid "April"
+msgstr "اپریل"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:29
+msgid "May"
+msgstr "مئی"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:30
+msgid "June"
+msgstr "جون"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:31
+msgid "July"
+msgstr "جولائی"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:32
+msgid "August"
+msgstr "اگست"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:33
+msgid "September"
+msgstr "ستمبر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:34
+msgid "October"
+msgstr "اکتوبر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:35
+msgid "November"
+msgstr "نومبر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:36
+msgid "December"
+msgstr "دسمبر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:39
+msgid "jan"
+msgstr "جنوری"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:40
+msgid "feb"
+msgstr "فروری"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:41
+msgid "mar"
+msgstr "مارچ"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:42
+msgid "apr"
+msgstr "اپریل"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:43
+msgid "may"
+msgstr "مئی"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:44
+msgid "jun"
+msgstr "جون"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:45
+msgid "jul"
+msgstr "جولائی"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:46
+msgid "aug"
+msgstr "اگست"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:47
+msgid "sep"
+msgstr "ستمبر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:48
+msgid "oct"
+msgstr "اکتوبر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:49
+msgid "nov"
+msgstr "نومبر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:50
+msgid "dec"
+msgstr "دسمبر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr "جنوری"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr "فروری"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr "مارچ"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr "اپریل"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr "مئی"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr "جون"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr "جولائی"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr "اگست"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr "ستمبر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr "اکتوبر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr "نومبر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr "دسمبر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr "جنوری"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr "فروری"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr "مارچ"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr "اپریل"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr "مئی"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr "جون"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr "جولائی"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr "اگست"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr "ستمبر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr "اکتوبر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr "نومبر"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr "دسمبر"
+
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:20
+msgid "This is not a valid IPv6 address."
+msgstr "یہ درست IPv6 ایڈریس نہیں ہے۔"
+
+#: .\venv\Lib\site-packages\django\utils\text.py:76
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:287
+msgid "or"
+msgstr "یا"
+
+#. Translators: This string is used as a separator between list elements
+#: .\venv\Lib\site-packages\django\utils\text.py:306
+#: .\venv\Lib\site-packages\django\utils\timesince.py:135
+msgid ", "
+msgstr "، "
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] "%(num)d سال"
+msgstr[1] "%(num)d سال"
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] "%(num)d مہینہ"
+msgstr[1] "%(num)d مہینے"
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] "%(num)d ہفتہ"
+msgstr[1] "%(num)d ہفتے"
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] "%(num)d دن"
+msgstr[1] "%(num)d دن"
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] "%(num)d گھنٹہ"
+msgstr[1] "%(num)d گھنٹے"
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] "%(num)d منٹ"
+msgstr[1] "%(num)d منٹ"
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:29
+msgid "Forbidden"
+msgstr "ممنوع"
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr "CSRF تصدیق ناکام ہوگئی۔ درخواست منسوخ کر دی گئی۔"
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+"آپ یہ پیغام دیکھ رہے ہیں کیونکہ اس HTTPS سائٹ کو آپ کے ویب براؤزر سے “ریفرر "
+"ہیڈر” بھیجنے کی ضرورت ہے، لیکن کوئی نہیں بھیجا گیا۔ یہ ہیڈر سیکیورٹی وجوہات "
+"کی بنا پر ضروری ہے تاکہ یہ یقینی بنایا جا سکے کہ آپ کا براؤزر کسی تیسرے فریق "
+"کے ذریعے ہائی جیک نہ ہو۔"
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+"اگر آپ نے اپنے براؤزر کو “ریفرر” ہیڈرز کو غیر فعال کرنے کے لیے ترتیب دیا ہے، "
+"تو براہ کرم انہیں دوبارہ فعال کریں، کم از کم اس سائٹ کے لیے، یا HTTPS کنکشنز "
+"کے لیے، یا “سیم اوریجن” درخواستوں کے لیے۔"
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+"اگر آپ <meta name=\"referrer\" content=\"no-referrer\"> ٹیگ استعمال کر رہے "
+"ہیں یا “Referrer-Policy: no-referrer” ہیڈر شامل کر رہے ہیں، تو براہ کرم "
+"انہیں ہٹا دیں۔ CSRF تحفظ کے لیے “ریفرر” ہیڈر کی سخت جانچ ضروری ہے۔ اگر آپ کو "
+"پرائیویسی کی فکر ہے، تو تیسرے فریق کی سائٹس کے لنکس کے لیے <a "
+"rel=\"noreferrer\" …> جیسے متبادل استعمال کریں۔"
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+"آپ یہ پیغام دیکھ رہے ہیں کیونکہ اس سائٹ کو فارم جمع کراتے وقت CSRF کوکی کی "
+"ضرورت ہے۔ یہ کوکی سیکیورٹی وجوہات کی بنا پر ضروری ہے تاکہ یہ یقینی بنایا جا "
+"سکے کہ آپ کا براؤزر کسی تیسرے فریق کے ذریعے ہائی جیک نہ ہو۔"
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+"اگر آپ نے اپنے براؤزر کو کوکیز کو غیر فعال کرنے کے لیے ترتیب دیا ہے، تو براہ "
+"کرم انہیں دوبارہ فعال کریں، کم از کم اس سائٹ کے لیے، یا “سیم اوریجن” "
+"درخواستوں کے لیے۔"
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr "مزید معلومات DEBUG=True کے ساتھ دستیاب ہیں۔"
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:44
+msgid "No year specified"
+msgstr "سال مخصوص نہیں کیا گیا"
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:64
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:115
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:214
+msgid "Date out of range"
+msgstr "تاریخ حد سے باہر ہے"
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:94
+msgid "No month specified"
+msgstr "مہینہ مخصوص نہیں کیا گیا"
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:147
+msgid "No day specified"
+msgstr "دن مخصوص نہیں کیا گیا"
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:194
+msgid "No week specified"
+msgstr "ہفتہ مخصوص نہیں کیا گیا"
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:353
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:384
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr "کوئی %(verbose_name_plural)s دستیاب نہیں"
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:680
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
+msgstr ""
+"مستقبل کے %(verbose_name_plural)s دستیاب نہیں کیونکہ "
+"%(class_name)s.allow_future غلط ہے۔"
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:720
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr "غلط تاریخ سٹرنگ “%(datestr)s” دی گئی فارمیٹ “%(format)s”"
+
+#: .\venv\Lib\site-packages\django\views\generic\detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr "کوئی %(verbose_name)s سوال سے مطابقت نہیں رکھتا"
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr "صفحہ “آخری” نہیں ہے، اور نہ ہی اسے عدد میں تبدیل کیا جا سکتا ہے۔"
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr "غلط صفحہ (%(page_number)s): %(message)s"
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:173
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr "فہرست خالی ہے اور “%(class_name)s.allow_empty” غلط ہے۔"
+
+#: .\venv\Lib\site-packages\django\views\static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr "ڈائریکٹری انڈیکس یہاں کی اجازت نہیں ہے۔"
+
+#: .\venv\Lib\site-packages\django\views\static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr "“%(path)s” موجود نہیں ہے"
+
+#: .\venv\Lib\site-packages\django\views\static.py:68
+#: .\venv\Lib\site-packages\django\views\templates\directory_index.html:8
+#: .\venv\Lib\site-packages\django\views\templates\directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr "%(directory)s کا انڈیکس"
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:204
+msgid "The install worked successfully! Congratulations!"
+msgstr "انسٹال کامیابی سے مکمل ہو گیا! مبارک ہو!"
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+"Django %(version)s کے لیے <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/releases/\" target=\"_blank\" rel=\"noopener\">ریلیز نوٹس</a> "
+"دیکھیں"
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:208
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
+msgstr ""
+"آپ یہ صفحہ دیکھ رہے ہیں کیونکہ آپ کی سیٹنگز فائل میں <a href=\"https://"
+"docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" "
+"target=\"_blank\" rel=\"noopener\">DEBUG=True</a> ہے اور آپ نے کوئی URLs "
+"ترتیب نہیں دیے۔"
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:217
+msgid "Django Documentation"
+msgstr "Django دستاویزات"
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:218
+msgid "Topics, references, &amp; how-to’s"
+msgstr "موضوعات، حوالہ جات، اور طریقہ کار"
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:226
+msgid "Tutorial: A Polling App"
+msgstr "سبق: ایک پولنگ ایپ"
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:227
+msgid "Get started with Django"
+msgstr "Django کے ساتھ آغاز کریں"
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:235
+msgid "Django Community"
+msgstr "Django کمیونٹی"
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:236
+msgid "Connect, get help, or contribute"
+msgstr "رابطہ کریں، مدد حاصل کریں، یا تعاون کریں"
+
+#, fuzzy
+#~| msgid "Currently"
+#~ msgid "Current language:"
+#~ msgstr "فی الحال"
